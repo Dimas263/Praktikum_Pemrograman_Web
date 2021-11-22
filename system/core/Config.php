@@ -104,7 +104,7 @@ class CI_Config {
 			}
 			else
 			{
-				$base_url = 'https://dimas263.loca.lt/';
+				$base_url = 'https://7bc3-180-244-163-87.ngrok.io/';
 			}
 
 			$this->set_item('base_url', $base_url);

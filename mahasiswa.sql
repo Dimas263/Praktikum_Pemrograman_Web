@@ -2,7 +2,7 @@
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
+-- Host: 7bc3-180-244-163-87.ngrok.io
 -- Waktu pembuatan: 22 Nov 2021 pada 08.05
 -- Versi server: 5.1.73-community
 -- Versi PHP: 8.0.0
