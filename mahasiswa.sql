@@ -2,10 +2,10 @@
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: dimas263.loca.lt
--- Generation Time: Nov 08, 2021 at 05:05 PM
--- Server version: 5.1.73-community
--- PHP Version: 8.0.0
+-- Host: localhost
+-- Waktu pembuatan: 22 Nov 2021 pada 08.05
+-- Versi server: 5.1.73-community
+-- Versi PHP: 8.0.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `mahasiswa`
+-- Struktur dari tabel `mahasiswa`
 --
 
 CREATE TABLE `mahasiswa` (
@@ -37,25 +37,47 @@ CREATE TABLE `mahasiswa` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `mahasiswa`
+-- Dumping data untuk tabel `mahasiswa`
 --
 
 INSERT INTO `mahasiswa` (`id_mahasiswa`, `nama`, `jenis_kelamin`, `tanggal_lahir`, `kota_lahir`, `alamat`) VALUES
-(1, 'Fadhlan Yusuf F', 'Laki-laki', '2001-03-01', 'Belanda', 'Cibitung'),
-(2, 'Dimas Dwi Putra', 'Laki-laki', '2001-02-01', 'Paris', 'Cikarang'),
-(3, 'Arif Budiman', 'Laki-laki', '2000-01-01', 'Jakarta', 'Manado'),
-(4, 'Azri Amrima Putra', 'Laki-laki', '1999-12-17', 'Bekasi', 'Mangun Jaya'),
-(5, 'Reza Fathurrahman', 'Laki-laki', '2000-03-21', 'Jakarta', 'Bekasi');
+(1, 'Dimas Dwi Putra', 'Laki-laki', '2001-01-23', 'Bekasi', 'Jakarta');
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `user`
+--
+
+CREATE TABLE `user` (
+  `id_user` int(100) NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `password` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data untuk tabel `user`
+--
+
+INSERT INTO `user` (`id_user`, `username`, `password`) VALUES
+(1, 'labti', '$2y$10$IF5/I6gPxzt22YB7O84lC.pAY61uN0C/On20wLKhHG9Upj9slDoWi'),
+(2, 'DimasDP', '$2y$10$68o8oVC.MFAuwAOR76NX6OAVziF29spKr7/y8hbuaZpDrsl/VsGNq');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `mahasiswa`
+-- Indeks untuk tabel `mahasiswa`
 --
 ALTER TABLE `mahasiswa`
   ADD PRIMARY KEY (`id_mahasiswa`);
+
+--
+-- Indeks untuk tabel `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id_user`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
