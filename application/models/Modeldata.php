@@ -2,6 +2,13 @@
 
 class Modeldata extends CI_Model
 {
+	public function tgl_indo($tgl){
+		$tanggal = substr($tgl, 8, 2);
+		$bulan = substr($tgl, 5, 2);
+		$tahun = substr($tgl, 0, 4);
+		return $tanggal."-".$bulan."-".$tahun;
+	}
+
     public function addData()
     {
 		$query = $this->db->query('SELECT * FROM mahasiswa');

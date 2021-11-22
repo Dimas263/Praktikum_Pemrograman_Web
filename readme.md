@@ -4,6 +4,12 @@ Membuat website sederhana menggunakan framework codeigniter
 
 ## Tampilan Aplikasi
 
+## Login
+<img src="system/assets/img/login.png" alt="alt text" width="600"/>
+
+## Register
+<img src="system/assets/img/register.png" alt="alt text" width="600"/>
+
 ## Home
 <img src="system/assets/img/home.png" alt="alt text" width="600"/>
 

@@ -6,6 +6,12 @@ class E_Registration extends CI_Controller
     public function __construct()
     {
         parent::__construct();
+		if(!empty($this->session->userdata('login') == FALSE)){
+			// alert peringatan bahwa harus login
+			echo "<script>alert('Maaf, Anda Belum login, silahkan login terlebih dahulu !');</script>";
+			$this->session->set_flashdata('failed','Anda Belum login, silahkan login terlebih dahulu !');
+			redirect(base_url('login'));
+		}
         $this->load->model('Modeldata');
     }
 

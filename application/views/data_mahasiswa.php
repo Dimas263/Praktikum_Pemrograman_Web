@@ -24,7 +24,7 @@
                         <th scope="row" style="background-color:#fdc921;"><?= $i++ ?></th>
                         <td><?= $mhs['nama'] ?></td>
                         <td><?= $mhs['jenis_kelamin'] ?></td>
-                        <td><?= $mhs['tanggal_lahir'] ?></td>
+                        <td><?= $this->Modeldata->tgl_indo($mhs['tanggal_lahir']); ?></td>
                         <td><?= $mhs['kota_lahir'] ?></td>
                         <td><?= $mhs['alamat'] ?></td>
                         <td>

@@ -55,7 +55,7 @@
                         <textarea name="alamat" style="width:inherit;height:100px"></textarea>
                     </div>
                 </div>
-                <button class="btn btn-success float-right"> Simpan Data </button>
+                <button class="btn btn-success btn-user btn-block"> Simpan Data </button>
             </div>
         </form>
     </div>

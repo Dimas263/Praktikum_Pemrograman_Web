@@ -19,23 +19,30 @@
 
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-success" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);">
-    <a class="navbar-brand" href="<?=base_url('')?>" align="center">PRAKTIKUM - LAB TI<br>PEMROGRAMAN WEB</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<body>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="<?= base_url() ?>"><h5 style="color: white;font-weight: normal;"><img src="https://img.icons8.com/material-rounded/24/ffffff/home.png"/> Home</h5></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('index.php/E_Registration/data_mahasiswa') ?>"><h5 style="color: white;font-weight: normal;"><img src="https://img.icons8.com/material-sharp/24/ffffff/student-female.png"/> Data Mahasiswa</h5></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="http://ti.lab.gunadarma.ac.id/praktikum/" target="_blank" style="color: white"><img src="https://img.icons8.com/material-outlined/24/ffffff/laptop.png"/> PRAKTIKUM</a>
-            </li>
-        </ul>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-success" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);">
+	<a class="navbar-brand" href="<?=base_url('')?>" align="center">PRAKTIKUM - LAB TI<br>PEMROGRAMAN WEB</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="<?= base_url() ?>"><h5 style="color: white;font-weight: normal;"><img src="https://img.icons8.com/material-rounded/24/ffffff/home.png"/> Home</h5></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="<?= base_url('E_Registration/data_mahasiswa') ?>"><h5 style="color: white;font-weight: normal;"><img src="https://img.icons8.com/material-sharp/24/ffffff/student-female.png"/> Data Mahasiswa</h5></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link disabled" href="http://ti.lab.gunadarma.ac.id/praktikum/" target="_blank" style="color: white"><img src="https://img.icons8.com/material-outlined/24/ffffff/laptop.png"/> PRAKTIKUM</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="<?= base_url('logout') ?>"><h5 style="color: white;font-weight: normal;"><img src="https://img.icons8.com/glyph-neue/24/ffffff/exit.png"/> Logout</h5></a>
+			</li>
+		</ul>
+	</div>
 </nav>
+
+</body>

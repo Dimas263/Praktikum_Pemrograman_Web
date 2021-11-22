@@ -2,7 +2,7 @@
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
+-- Host: dimas263.loca.lt
 -- Generation Time: Nov 08, 2021 at 05:05 PM
 -- Server version: 5.1.73-community
 -- PHP Version: 8.0.0
