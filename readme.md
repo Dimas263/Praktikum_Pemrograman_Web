@@ -1,25 +1,25 @@
-# PRAKTIKUM LAB TI
+# <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/undefined/external-research-market-research-flaticons-lineal-color-flat-icons-6.png"/> PRAKTIKUM LAB TI
 # PEMROGRAMAN WEB
 Membuat website sederhana menggunakan framework codeigniter
 
 ## Tampilan Aplikasi
 
-## Login
+## <img src="https://img.icons8.com/color/48/undefined/1-circle--v1.png"/> Login
 <img src="system/assets/img/login.png" alt="alt text" width="600"/>
 
-## Register
+## <img src="https://img.icons8.com/color/48/undefined/2-circle--v1.png"/> Register
 <img src="system/assets/img/register.png" alt="alt text" width="600"/>
 
-## Home
+## <img src="https://img.icons8.com/color/48/undefined/3-circle--v1.png"/> Home
 <img src="system/assets/img/home.png" alt="alt text" width="600"/>
 
-## Data Mahasiswa
+## <img src="https://img.icons8.com/color/48/undefined/4-circle--v1.png"/> Data Mahasiswa
 <img src="system/assets/img/data_mahasiswa.png" alt="alt text" width="600"/>
 
-## Edit
+## <img src="https://img.icons8.com/color/48/undefined/6-circle--v1.png"/> Edit
 <img src="system/assets/img/edit.png" alt="alt text" width="600"/>
 
-## Delete
+## <img src="https://img.icons8.com/color/48/undefined/7-circle--v1.png"/> Delete
 <img src="system/assets/img/delete.png" alt="alt text" width="600"/>
 
 # LICENSE
